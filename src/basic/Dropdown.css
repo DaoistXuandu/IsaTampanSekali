@@ -1,0 +1,42 @@
+.menu {
+    border: 1px brown;
+}
+
+select {
+    padding: 4px;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    border-radius: 0 !important;
+}
+
+input {
+    padding: 3px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.button-square {
+    /* height: 30%; */
+    width: 100%;
+}
+
+@media (max-width: 400px) {
+    .button-square {
+        font-size: 100px;
+    }
+}
+
+@media (min-width: 400px) {
+    .right-area {
+        padding-left: 0 !important;
+    }
+
+    .left-area {
+        padding-right: 0 !important;
+    }
+
+    .button-square {
+        font-size: 100px;
+        border-radius: 0 !important;
+    }
+}

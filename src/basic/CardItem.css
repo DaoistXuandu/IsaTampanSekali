@@ -1,0 +1,135 @@
+@media (min-width: 400px) {
+    .cardsItem {
+        padding: 50px;
+    }
+
+    .main-info {
+        line-height: 1.0;
+        margin-bottom: 50px;
+        box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+        padding: 30px;
+        width: 93%;
+        border-radius: 10px;
+    }
+
+    #name {
+        font-family: 'Afacad', sans-serif;
+        font-size: 100px;
+        text-overflow: ellipsis;
+        font-weight: bold;
+    }
+
+    #dateUpdate {
+        font-family: 'Lato';
+        font-size: 15px;
+        margin-left: 8px;
+        margin-top: 10px;
+    }
+
+    .description-info {
+        box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+        padding: 30px;
+        width: 93%;
+        border-radius: 10px;
+    }
+
+    .description-info b {
+        font-family: 'Lato';
+        font-size: 30px;
+        margin-right: 10px;
+    }
+
+    .description-info svg {
+        margin-top: -10px;
+    }
+
+    #desc {
+        font-family: 'Lato';
+        font-weight: 300;
+    }
+
+    .side-info {
+        border-radius: 10px;
+        box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+    }
+
+    .btn-place {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .info-group {
+        margin-top: 10px;
+        font-family: 'Nunito Sans';
+        font-size: 18px;
+    }
+
+    .info-item {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .cardsItem {
+        padding: 30px 15px;
+    }
+
+    .main-info {
+        line-height: 1.0;
+        box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    #name {
+        font-family: 'Afacad', sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    #dateUpdate {
+        font-family: 'Lato';
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .description-info {
+        box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+        padding: 10px;
+        border-radius: 10px;
+        margin: 20px 0px;
+    }
+
+    .description-info b {
+        font-family: 'Lato';
+        font-size: 30px;
+        margin-right: 10px;
+    }
+
+    .btn-place {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .info-item {
+        margin-top: 10px;
+    }
+}
+
+.wordwrap {
+    white-space: pre-wrap;
+    /* Webkit */
+    white-space: -moz-pre-wrap;
+    /* Firefox */
+    white-space: -pre-wrap;
+    /* Opera <7 */
+    white-space: -o-pre-wrap;
+    /* Opera 7 */
+    word-wrap: break-word;
+    /* IE */
+}
+
+.description-info textarea {
+    width: 100%;
+}
