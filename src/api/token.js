@@ -1,5 +1,5 @@
 function GetToken() {
-    let token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjOTJhMTJiZi0xNTdiLTQ2ZmQtOTJiZS03ZTU4MGYxZWU5Y2UiLCJpZCI6ImM5MmExMmJmLTE1N2ItNDZmZC05MmJlLTdlNTgwZjFlZTljZSIsInVzZXJuYW1lIjoibGF6eXBhbmRhIiwiaWF0IjoxNzAyMTc1NzQyLCJleHAiOjE3MDQ3Njc3NDJ9.G1RePDm6Zj5prhiFcTdigmhSLrGZQ9_WZPKQpE7Wc1I";
+    let token = "";
     return token
 }
 
