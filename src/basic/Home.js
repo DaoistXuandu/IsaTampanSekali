@@ -104,7 +104,7 @@ function Home({ data }) {
                         <input type="email" class="form-control col-6 in" aria-describedby="emailHelp" placeholder="Enter capacity"></input>
                     </div>
 
-                    <label class="col-12" for="inputGroupSelect01">Options</label>
+                    <label class="col-12" for="inputGroupSelect01">Color</label>
                     <select class="form-select col-12" id="inputGroupSelect01">
                         <option selected>Choose...</option>
                         {
